@@ -1,7 +1,7 @@
 services:
   nginx:
     image: nginx:1.15
-    container_name: sec1-nginx-1
+    container_name: jar01-nginx
     ports:
       - "8080:80" # ホスト:サーバでポート番号を指定
     volumes:
@@ -9,17 +9,17 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf # 設定用フォルダのマウント
   php-fpm:
     build: ./php-fpm # Dockerfileをビルド
-    container_name: sec1-php-fpm-1
+    container_name: jar01-php-fpm
     volumes:
       - ./src:/var/www/html # ソースコード用フォルダのマウント
   mysql:
     image: mysql:5.7
-    container_name: sec1-mysql-1
+    container_name: jar01-mysql
     environment:
-      MYSQL_DATABASE: sec_db # DB名
+      MYSQL_DATABASE: jar01_db # DB名
       MYSQL_ROOT_PASSWORD: root # ルートユーザのパスワード
-      MYSQL_USER: sec_user   # 一般ユーザ名
-      MYSQL_PASSWORD: password  # 一般ユーザのパスワード
+      MYSQL_USER: jar01_user   # 一般ユーザ名
+      MYSQL_PASSWORD: jar01_password  # 一般ユーザのパスワード
       TZ: Asia/Tokyo            # タイムゾーン指定
     ports:
       - 3306:3306
@@ -27,7 +27,7 @@ services:
       - ./mysql/data:/var/lib/mysql # ローカルにマウント
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: sec1-phpmyadmin-1
+    container_name: jar01-phpmyadmin
     depends_on:
       - mysql # mysqlのつぎに起動
     environment:
