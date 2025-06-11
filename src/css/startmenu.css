@@ -7,3 +7,109 @@
 body {
     background-image: repeating-linear-gradient(135deg, rgba(71,71,71, 0.56) 0px, rgba(71,71,71, 0.56) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(108,108,108),rgb(108,108,108));
 }
+
+.title_text {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    font-size: 3.6vw;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.start_button_area {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+
+    font-size: 1.6vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: cadetblue;
+}
+
+.score_button_area {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+
+    font-size: 1.6vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.level_radio {
+    margin-bottom: 2vw;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    
+    font-size: 3vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.level {
+    margin-left: 5vw;
+}
+
+.start_button {
+    width: 40%;
+    height: 8vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #00EA6E;
+    color: azure;
+    font-size: 3.2vw;
+}
+
+.start_button:hover {
+    width: 40.5%;
+    height: 8.2vw;
+    border-radius: 12px;
+    background-color: #00EA6E;
+    box-shadow: 0 0px 10px 0 #EFEFEF;
+}
+
+.score_button {
+    width: 40%;
+    height: 8vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #FF696E;
+    color: azure;
+    font-size: 3.2vw;
+}
+
+.score_button:hover {
+    width: 40.5%;
+    height: 8.2vw;
+    border-radius: 12px;
+    background-color: #FF696E;
+    box-shadow: 0 0px 10px 0 #EFEFEF;
+}
+
