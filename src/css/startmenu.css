@@ -64,6 +64,7 @@ body {
     margin-right: 27vw;
     
     font-size: 3vw;
+    color: #d9d9d9;
 
     display: flex;
     flex-direction: row;
@@ -71,6 +72,8 @@ body {
 
 .level {
     margin-left: 5vw;
+    margin-right: 1vw;
+    width: 2.4vw;
 }
 
 .start_button {
@@ -85,8 +88,8 @@ body {
 }
 
 .start_button:hover {
-    width: 40.5%;
-    height: 5.2vw;
+    width: 40%;
+    height: 5vw;
     border-radius: 1.8vw;
     background-color: #00EA6E;
     box-shadow: 0 0px 10px 0 #EFEFEF;
@@ -104,8 +107,8 @@ body {
 }
 
 .score_button:hover {
-    width: 40.5%;
-    height: 5.2vw;
+    width: 40%;
+    height: 5vw;
     border-radius: 1.8vw;
     background-color: #FF696E;
     box-shadow: 0 0px 10px 0 #EFEFEF;

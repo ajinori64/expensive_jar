@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Meiryo ;
+}
+
+body {
+    background-image: repeating-linear-gradient(135deg, rgba(71,71,71, 0.56) 0px, rgba(71,71,71, 0.56) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(108,108,108),rgb(108,108,108));
+}

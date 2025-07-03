@@ -13,8 +13,8 @@
     <div class="start_button_area">
         <form action="../game/game.php" method="GET">
             <div class="level_radio">
-                <input type="radio" name="level" value="easy" class="level" checked>Easy
-                <input type="radio" name="level" value="normal" class="level">Normal
+                <input type="radio" name="level" value="basic" class="level" checked>basic
+                <input type="radio" name="level" value="normal" class="level">normal
             </div>
             <input type="submit" class="start_button" value="Start">
         </form>
