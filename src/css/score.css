@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Meiryo;
+    background-image: repeating-linear-gradient(135deg, rgba(71,71,71, 0.56) 0px, rgba(71,71,71, 0.56) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(108,108,108),rgb(108,108,108));
+}
+
+.result_score {
+    margin-top: 2vw;
+    text-align: center;
+    
+    color: azure;
+    font-size: 3vw;
+
+}
+
+.score_add_area {
+    color: #ffffff;
+    margin-left: 25vw;
+    margin-right: 25vw;
+
+    font-size: 2vw;
+}
+
+.text_area {
+    margin-top: 2vw;
+    font-size: 2.4vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.input_text {
+    margin-top: 2vw;
+    height: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.save_button  {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    width: 50%;
+    height: 5vw;
+
+    border: none;
+    border-radius: 1.5vw;
+    background-color: #00EA6E;
+    color: azure;
+    font-size: 2.4vw;
+}
+
+.save_button:hover {
+    background-color: #00EA6E;
+    box-shadow: 0 0px 10px 0 #EFEFEF;
+}
+
+.through_button {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    width: 50%;
+    height: 5vw;
+
+    border: none;
+    border-radius: 1.5vw;
+    background-color: #FF696E;
+    color: azure;
+    font-size: 2.4vw;
+}
+
+.through_button:hover {
+    box-shadow: 0 0px 10px 0 #EFEFEF;
+}
